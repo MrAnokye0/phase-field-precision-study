@@ -1,0 +1,20 @@
+steps = 12800
+print_every = 128
+print_trajectory_every = 128
+N = 64
+dt = 0.015625
+free_energy = "landau"
+integrator = "euler"
+model = "ch"
+use_autodiff = false
+interface_scalar = 2.0
+initial_density = 0.01
+float_type = "float32"
+write_path = "C:\\Users\\USER\\precision-study\\study\\results\\sweep_dt0.015625_f32"
+load_from = "C:\\Users\\USER\\precision-study\\phase-field-models\\Examples\\landau\\standard_input.dat"
+seed = 0
+verbose = false
+
+[landau]
+epsilon = 0.9
+

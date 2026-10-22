@@ -1,0 +1,31 @@
+{
+  "name": "spec_f64",
+  "status": "ok",
+  "steps_requested": 50000,
+  "steps_done": 50000,
+  "rho_dtype": "float64",
+  "x64_enabled": true,
+  "wall_s": 12.004715899995063,
+  "first_chunk_s": 0.40349359999527223,
+  "median_chunk_s": 0.042126999993342906,
+  "euler_stability_term": 0.02,
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "jax": "0.11.2",
+  "numpy": "2.2.4",
+  "devices": "[CpuDevice(id=0)]",
+  "repo_commit": "c90978331a1f83dbf056e70e624dbe098d667d9a",
+  "args": {
+    "name": "spec_f64",
+    "precision": "float64",
+    "integrator": "spectral",
+    "model": "ch",
+    "dt": 0.01,
+    "steps": 50000,
+    "log_every": 200,
+    "epsilon": 0.9,
+    "out": "C:\\Users\\USER\\precision-study\\study\\results",
+    "round_init_f32": false,
+    "perturb": 0.0,
+    "blowup_threshold": 1000.0
+  }
+}

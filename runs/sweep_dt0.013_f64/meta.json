@@ -1,0 +1,31 @@
+{
+  "name": "sweep_dt0.013_f64",
+  "status": "ok",
+  "steps_requested": 15400,
+  "steps_done": 15400,
+  "rho_dtype": "float64",
+  "x64_enabled": true,
+  "wall_s": 2.5337247000134084,
+  "first_chunk_s": 0.4721088000223972,
+  "median_chunk_s": 0.011310000001685694,
+  "euler_stability_term": 0.026,
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "jax": "0.11.2",
+  "numpy": "2.2.4",
+  "devices": "[CpuDevice(id=0)]",
+  "repo_commit": "c90978331a1f83dbf056e70e624dbe098d667d9a",
+  "args": {
+    "name": "sweep_dt0.013_f64",
+    "precision": "float64",
+    "integrator": "euler",
+    "model": "ch",
+    "dt": 0.013,
+    "steps": 15400,
+    "log_every": 100,
+    "epsilon": 0.9,
+    "out": "C:\\Users\\USER\\precision-study\\study\\results",
+    "round_init_f32": false,
+    "perturb": 0.0,
+    "blowup_threshold": 1000.0
+  }
+}

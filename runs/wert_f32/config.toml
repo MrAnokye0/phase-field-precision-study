@@ -1,0 +1,27 @@
+steps = 20000
+print_every = 2000
+print_trajectory_every = 2000
+N = 512
+dt = 1e-5
+free_energy = "simple_wertheim"
+integrator = "euler"
+dx = 10
+k = 1000000.0
+use_autodiff = false
+float_type = "float32"
+write_path = "C:\\Users\\USER\\precision-study\\study\\results\\wert_f32"
+load_from = "C:\\Users\\USER\\precision-study\\phase-field-models\\Examples\\simple wertheim\\standard_input_simple_wert.dat"
+seed = 0
+verbose = false
+
+[wertheim]
+valence = 4
+B2 = 2190
+
+[wertheim.delta]
+T = 303.15
+deltaH = -42200
+deltaS = -119.1
+salt = 0.5
+sticky_size = 6
+

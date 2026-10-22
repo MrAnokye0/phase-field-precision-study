@@ -1,0 +1,27 @@
+{
+  "name": "wert_f32",
+  "status": "ok",
+  "steps_requested": 20000,
+  "steps_done": 20000,
+  "rho_dtype": "float32",
+  "x64_enabled": false,
+  "wall_s": 142.28948910001782,
+  "first_chunk_s": 18.042565299983835,
+  "median_chunk_s": 13.806818899989594,
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "jax": "0.11.2",
+  "numpy": "2.2.4",
+  "devices": "[CpuDevice(id=0)]",
+  "repo_commit": "c90978331a1f83dbf056e70e624dbe098d667d9a",
+  "base_config": "phase-field-models\\Examples\\simple wertheim\\euler_noautodiff.toml",
+  "args": {
+    "base_config": "phase-field-models\\Examples\\simple wertheim\\euler_noautodiff.toml",
+    "name": "wert_f32",
+    "precision": "float32",
+    "steps": 20000,
+    "log_every": 2000,
+    "out": "C:\\Users\\USER\\precision-study\\study\\results",
+    "dt": null,
+    "blowup_threshold": 1e+30
+  }
+}
